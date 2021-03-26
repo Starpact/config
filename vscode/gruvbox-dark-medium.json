@@ -769,6 +769,42 @@
         "foreground": "#fe8019"
       }
     },
+    // rust
+    {
+      "scope": [
+        "variable.parameter",
+        "variable.other.readwrite",
+        "variable.other.property",
+        "variable.other.constant.rust"
+      ],
+      "settings": {
+        "foreground": "#f8e1aa"
+      }
+    },
+    {
+      "scope": [
+        "variable.language.self.rust"
+      ],
+      "settings": {
+        "foreground": "#fb4934"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#b8bb26"
+      }
+    },
+    {
+      "scope": [
+        "storage.modifier.lifetime.rust"
+      ],
+      "settings": {
+        "foreground": "#fabd2f"
+      }
+    },
     // golang --------------------------------------------
     {
       "scope": [
