@@ -1,32 +1,37 @@
 {
   "editor.semanticHighlighting.enabled": true,
-  "editor.fontSize": 16,
-  "terminal.integrated.fontSize": 16,
-  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontFamily": "Monaco, 'Courier New', monospace",
+  "editor.fontSize": 15,
+  "editor.cursorSurroundingLines": 10,
+  //
+  "terminal.integrated.fontSize": 15,
+  //
   "workbench.colorTheme": "Gruvbox Dark Medium",
+  "workbench.startupEditor": "none",
   //
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   //
   "rust-analyzer.inlayHints.maxLength": 10,
   "rust-analyzer.completion.addCallArgumentSnippets": false,
-  "rust-analyzer.completion.addCallParenthesis": true,
   "rust-analyzer.cargo.allFeatures": true,
   "rust-analyzer.inlayHints.chainingHints": false,
   "rust-analyzer.inlayHints.parameterHints": false,
-  "rust-analyzer.diagnostics.enableExperimental": false,
   //
-  "python.linting.lintOnSave": false,
+  "go.lintTool": "golangci-lint",
+  "go.lintOnSave": "file",
+  //
+  "python.linting.lintOnSave": true,
   "python.autoComplete.addBrackets": true,
   //
   "gitlens.advanced.blame.delayAfterEdit": 0,
   //
-  "vim.easymotion": true,
+  "vim.leader": "<space>",
+  "vim.hlsearch": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
-  "vim.hlsearch": true,
-  "vim.insertModeKeyBindings": [
+  "vim.insertModeKeyBindingsNonRecursive": [
     {
       "before": [
         "j",
@@ -40,16 +45,6 @@
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": [
-        "<leader>",
-        "d"
-      ],
-      "after": [
-        "d",
-        "d"
-      ]
-    },
-    {
-      "before": [
         "<C-n>"
       ],
       "commands": [
@@ -57,11 +52,11 @@
       ]
     }
   ],
-  "vim.leader": "<space>",
   "vim.handleKeys": {
-    "<C-a>": false,
     "<C-f>": true
   },
+  "vim.easymotion": true,
+  //
   "cSpell.userWords": [
     "Echarts",
     "Hongjie",
