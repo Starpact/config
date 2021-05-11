@@ -1,13 +1,18 @@
 {
   "editor.semanticHighlighting.enabled": true,
   "editor.fontFamily": "Monaco, 'Courier New', monospace",
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.cursorSurroundingLines": 10,
+  "editor.formatOnSave": true,
+  "editor.copyWithSyntaxHighlighting": false,
   //
-  "terminal.integrated.fontSize": 15,
+  "window.restoreFullscreen": true,
+  //
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
   //
   "workbench.colorTheme": "Gruvbox Dark Medium",
-  "workbench.startupEditor": "none",
+  "workbench.startupEditor": "readme",
   //
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -18,8 +23,15 @@
   "rust-analyzer.inlayHints.chainingHints": false,
   "rust-analyzer.inlayHints.parameterHints": false,
   //
+  "go.testFlags": [
+    "-race",
+    "-v",
+    "--count=1"
+  ],
   "go.lintTool": "golangci-lint",
-  "go.lintOnSave": "file",
+  "go.lintFlags": [
+    "--fast"
+  ],
   //
   "python.linting.lintOnSave": true,
   "python.autoComplete.addBrackets": true,
@@ -58,6 +70,7 @@
   "vim.easymotion": true,
   //
   "cSpell.userWords": [
+    "CMDB",
     "Echarts",
     "Hongjie",
     "Starpact",
@@ -72,8 +85,11 @@
     "erfc",
     "eval",
     "ffmpeg",
+    "garena",
+    "gonic",
     "ictx",
     "interp",
+    "jinzhu",
     "libc",
     "libm",
     "nalgebra",
@@ -85,8 +101,11 @@
     "preload",
     "preprocess",
     "promisified",
+    "shopee",
     "simd",
     "sjtu",
+    "splog",
+    "struct",
     "tauri",
     "thiserror",
     "vals",
