@@ -1,5 +1,6 @@
 {
   "editor.semanticHighlighting.enabled": true,
+<<<<<<< HEAD
   "editor.fontSize": 16,
   "editor.cursorSurroundingLines": 10,
   "editor.formatOnSave": true,
@@ -7,6 +8,21 @@
   "terminal.integrated.fontSize": 16,
   //
   "workbench.colorTheme": "Gruvbox Dark Medium",
+=======
+  "editor.fontFamily": "Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.cursorSurroundingLines": 10,
+  "editor.formatOnSave": true,
+  "editor.copyWithSyntaxHighlighting": false,
+  //
+  "window.restoreFullscreen": true,
+  //
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
+  //
+  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "workbench.startupEditor": "readme",
+>>>>>>> 9fbf34162504cb27f6ea229540c9ccdb752b17f7
   //
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -18,14 +34,25 @@
   "rust-analyzer.inlayHints.parameterHints": false,
   //
   "go.testFlags": [
+<<<<<<< HEAD
     "-v",
     "-race",
+=======
+    "-race",
+    "-v",
+>>>>>>> 9fbf34162504cb27f6ea229540c9ccdb752b17f7
     "--count=1"
   ],
   "go.lintTool": "golangci-lint",
   "go.lintFlags": [
     "--fast"
   ],
+<<<<<<< HEAD
+=======
+  //
+  "python.linting.lintOnSave": true,
+  "python.autoComplete.addBrackets": true,
+>>>>>>> 9fbf34162504cb27f6ea229540c9ccdb752b17f7
   //
   "gitlens.advanced.blame.delayAfterEdit": 0,
   //
@@ -62,9 +89,13 @@
   "vim.easymotion": true,
   //
   "cSpell.userWords": [
+<<<<<<< HEAD
     "Actix",
     "CMDB",
     "Deque",
+=======
+    "CMDB",
+>>>>>>> 9fbf34162504cb27f6ea229540c9ccdb752b17f7
     "Echarts",
     "Hongjie",
     "Mutex",
@@ -82,8 +113,13 @@
     "eval",
     "ffmpeg",
     "garena",
+<<<<<<< HEAD
+=======
+    "gonic",
+>>>>>>> 9fbf34162504cb27f6ea229540c9ccdb752b17f7
     "ictx",
     "interp",
+    "jinzhu",
     "libc",
     "libm",
     "nalgebra",
@@ -101,6 +137,10 @@
     "shopee",
     "simd",
     "sjtu",
+<<<<<<< HEAD
+=======
+    "splog",
+>>>>>>> 9fbf34162504cb27f6ea229540c9ccdb752b17f7
     "struct",
     "tauri",
     "thiserror",

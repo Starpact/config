@@ -357,7 +357,7 @@
         "punctuation"
       ],
       "settings": {
-        "foreground": "#F8E1AA"
+        "foreground": "#a89984"
       }
     },
     {
@@ -476,6 +476,40 @@
       "scope": "support.function.C99",
       "settings": {
         "foreground": "#fabd2f"
+      }
+    },
+    // C# ----------------------------------------
+    {
+      "name": "C# functions & namespace",
+      "scope": [
+        "meta.function.cs",
+        "entity.name.function.cs",
+        "entity.name.type.namespace.cs"
+      ],
+      "settings": {
+        "foreground": "#b8bb26"
+      }
+    },
+    {
+      "name": "C# Variables",
+      "scope": [
+        "keyword.other.using.cs",
+        "entity.name.variable.field.cs",
+        "entity.name.variable.local.cs",
+        "variable.other.readwrite.cs"
+      ],
+      "settings": {
+        "foreground": "#8ec07c"
+      }
+    },
+    {
+      "name": "C# This",
+      "scope": [
+        "keyword.other.this.cs",
+        "keyword.other.base.cs"
+      ],
+      "settings": {
+        "foreground": "#d3869b"
       }
     },
     // MAKEFILE ----------------------------------------
@@ -1172,4 +1206,3 @@
     "debugToolBar.background": "#282828"
   }
 }
-
