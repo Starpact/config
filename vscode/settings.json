@@ -1,13 +1,12 @@
 {
   "editor.semanticHighlighting.enabled": true,
-  "editor.fontFamily": "Monaco, 'Courier New', monospace",
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "editor.cursorSurroundingLines": 10,
+  "editor.formatOnSave": true,
   //
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontSize": 16,
   //
   "workbench.colorTheme": "Gruvbox Dark Medium",
-  "workbench.startupEditor": "none",
   //
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -18,11 +17,15 @@
   "rust-analyzer.inlayHints.chainingHints": false,
   "rust-analyzer.inlayHints.parameterHints": false,
   //
+  "go.testFlags": [
+    "-v",
+    "-race",
+    "--count=1"
+  ],
   "go.lintTool": "golangci-lint",
-  "go.lintOnSave": "file",
-  //
-  "python.linting.lintOnSave": true,
-  "python.autoComplete.addBrackets": true,
+  "go.lintFlags": [
+    "--fast"
+  ],
   //
   "gitlens.advanced.blame.delayAfterEdit": 0,
   //
@@ -53,13 +56,19 @@
     }
   ],
   "vim.handleKeys": {
-    "<C-f>": true
+    "<C-f>": true,
+    "<C-w>": false
   },
   "vim.easymotion": true,
   //
   "cSpell.userWords": [
+    "Actix",
+    "CMDB",
+    "Deque",
     "Echarts",
     "Hongjie",
+    "Mutex",
+    "Spex",
     "Starpact",
     "Xlsx",
     "awsl",
@@ -72,6 +81,7 @@
     "erfc",
     "eval",
     "ffmpeg",
+    "garena",
     "ictx",
     "interp",
     "libc",
@@ -79,19 +89,29 @@
     "nalgebra",
     "ncols",
     "ndarray",
+    "nolint",
     "nrows",
+    "onclick",
+    "oneshot",
     "postprocess",
     "powf",
     "preload",
     "preprocess",
     "promisified",
+    "shopee",
     "simd",
     "sjtu",
+    "struct",
     "tauri",
     "thiserror",
     "vals",
     "vmax",
     "vmin",
     "winres"
+  ],
+  "background.filepath": "d:\\yhj\\Pictures\\WallPaper\\6.png",
+  "background.opacity": 0.9,
+  "cSpell.enableFiletypes": [
+    "toml"
   ]
 }
