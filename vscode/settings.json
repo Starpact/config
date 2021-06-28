@@ -1,11 +1,13 @@
 {
   "editor.semanticHighlighting.enabled": true,
-  "editor.fontSize": 16,
+  "editor.fontSize": 15,
   "editor.cursorSurroundingLines": 10,
   "editor.formatOnSave": true,
+  "editor.fontFamily": "Monaco, monospace",
   //
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 15,
   //
+  "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Gruvbox Dark Medium",
   //
   "explorer.confirmDragAndDrop": false,
@@ -26,8 +28,6 @@
   "go.lintFlags": [
     "--fast"
   ],
-  //
-  "gitlens.advanced.blame.delayAfterEdit": 0,
   //
   "vim.leader": "<space>",
   "vim.hlsearch": true,
@@ -59,7 +59,102 @@
     "<C-f>": true,
     "<C-w>": false
   },
-  "vim.easymotion": true,
+  //
+  "editor.tokenColorCustomizations": {
+    "[Gruvbox Dark Medium]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "variable.other.assignment.go",
+            "variable.other.declaration.go",
+            "entity.name.package.go",
+            "variable.other",
+            "variable.parameter"
+          ],
+          "settings": {
+            "foreground": "#ebdbb2"
+          }
+        },
+        {
+          "scope": [
+            "keyword.struct.go",
+            "keyword.package.go",
+            "keyword.interface.go",
+            "keyword.import.go"
+          ],
+          "settings": {
+            "foreground": "#fb4934"
+          }
+        },
+        {
+          "scope": [
+            "entity.name.type.go"
+          ],
+          "settings": {
+            "foreground": "#fabd2f"
+          }
+        },
+        {
+          "scope": [
+            "entity.name.function.go",
+            "support.function.go",
+            "support.function.builtin.go",
+            "entity.name.function",
+          ],
+          "settings": {
+            "foreground": "#b8bb26"
+          },
+        },
+        {
+          "scope": [
+            "variable.other.enummember"
+          ],
+          "settings": {
+            "foreground": "#83a598"
+          },
+        },
+        {
+          "scope": [
+            "comment"
+          ],
+          "settings": {
+            "fontStyle": ""
+          },
+        }
+      ]
+    },
+    "[One Dark Pro]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "support.function.go",
+            "support.function.builtin.go"
+          ],
+          "settings": {
+            "foreground": "#61afef"
+          }
+        },
+        {
+          "scope": [
+            "keyword.operator.assignment.go",
+            "variable.other.declaration.go",
+            "variable.other.assignment.go"
+          ],
+          "settings": {
+            "foreground": "#abb2bf"
+          }
+        },
+        {
+          "scope": [
+            "storage.type"
+          ],
+          "settings": {
+            "foreground": "#e5c07b"
+          }
+        }
+      ]
+    }
+  },
   //
   "cSpell.userWords": [
     "Actix",
@@ -74,6 +169,7 @@
     "awsl",
     "azip",
     "bakana",
+    "cdylib",
     "cmath",
     "colormap",
     "consts",
@@ -82,6 +178,8 @@
     "eval",
     "ffmpeg",
     "garena",
+    "gomnd",
+    "gonic",
     "ictx",
     "interp",
     "libc",
@@ -101,16 +199,16 @@
     "shopee",
     "simd",
     "sjtu",
+    "stretchr",
     "struct",
     "tauri",
     "thiserror",
     "vals",
     "vmax",
     "vmin",
+    "wasmerio",
     "winres"
   ],
-  "background.filepath": "d:\\yhj\\Pictures\\WallPaper\\6.png",
-  "background.opacity": 0.9,
   "cSpell.enableFiletypes": [
     "toml"
   ]
