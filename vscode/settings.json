@@ -1,6 +1,6 @@
 {
   "editor.semanticHighlighting.enabled": true,
-  "editor.fontSize": 15,
+  "editor.fontSize": 13,
   "editor.cursorSurroundingLines": 10,
   "editor.formatOnSave": true,
   "editor.fontFamily": "Monaco, monospace",
@@ -154,6 +154,23 @@
         }
       ]
     }
+  },
+  //
+  "background.useDefault": false,
+  "background.customImages": [
+    "https://user-images.githubusercontent.com/24371189/47023104-85336080-d191-11e8-957f-b4ac3f8a24c1.png"
+  ],
+  "background.style": {
+    "content": "''",
+    "pointer-events": "none",
+    "position": "absolute",
+    "z-index": "99999",
+    "right": "0",
+    "bottom": "0",
+    "width": "100%",
+    "height": "100%",
+    "background-size": "36%",
+    "opacity": 0.35
   },
   //
   "cSpell.userWords": [
