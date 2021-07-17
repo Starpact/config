@@ -1,14 +1,14 @@
 {
   "editor.semanticHighlighting.enabled": true,
-  "editor.fontSize": 13,
+  "editor.fontSize": 15,
   "editor.cursorSurroundingLines": 10,
   "editor.formatOnSave": true,
-  "editor.fontFamily": "Monaco, monospace",
+  "editor.fontFamily": "Monaco, 'Courier New', monospace",
   //
   "terminal.integrated.fontSize": 15,
   //
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "oneDarkPro.italic": false,
   //
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -80,7 +80,8 @@
             "keyword.struct.go",
             "keyword.package.go",
             "keyword.interface.go",
-            "keyword.import.go"
+            "keyword.import.go",
+            "storage.modifier"
           ],
           "settings": {
             "foreground": "#fb4934"
@@ -99,11 +100,11 @@
             "entity.name.function.go",
             "support.function.go",
             "support.function.builtin.go",
-            "entity.name.function",
+            "entity.name.function"
           ],
           "settings": {
             "foreground": "#b8bb26"
-          },
+          }
         },
         {
           "scope": [
@@ -111,7 +112,7 @@
           ],
           "settings": {
             "foreground": "#83a598"
-          },
+          }
         },
         {
           "scope": [
@@ -119,7 +120,7 @@
           ],
           "settings": {
             "fontStyle": ""
-          },
+          }
         }
       ]
     },
@@ -169,7 +170,7 @@
     "bottom": "0",
     "width": "100%",
     "height": "100%",
-    "background-size": "36%",
+    "background-size": "30%",
     "opacity": 0.35
   },
   //
@@ -184,6 +185,7 @@
     "Starpact",
     "Warnf",
     "Xlsx",
+    "aggs",
     "awsl",
     "azip",
     "bakana",
@@ -197,24 +199,34 @@
     "eval",
     "ffmpeg",
     "garena",
+    "golangci",
     "gomnd",
     "gonic",
+    "gruvbox",
+    "hlsearch",
     "ictx",
+    "incsearch",
     "interp",
     "libc",
     "libm",
+    "minio",
+    "monospace",
     "nalgebra",
     "ncols",
     "ndarray",
+    "nohl",
     "nolint",
+    "nonlive",
     "nrows",
     "onclick",
     "oneshot",
+    "overwatch",
     "postprocess",
     "powf",
     "preload",
     "preprocess",
     "promisified",
+    "redsouls",
     "shopee",
     "simd",
     "sjtu",
@@ -226,9 +238,11 @@
     "vmax",
     "vmin",
     "wasmerio",
-    "winres"
+    "winres",
+    "zerox"
   ],
   "cSpell.enableFiletypes": [
     "toml"
-  ]
+  ],
+  "workbench.colorTheme": "Gruvbox Dark Medium"
 }
