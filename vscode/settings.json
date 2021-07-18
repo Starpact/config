@@ -4,10 +4,13 @@
   "editor.cursorSurroundingLines": 10,
   "editor.formatOnSave": true,
   "editor.fontFamily": "Monaco, 'Courier New', monospace",
+  "editor.minimap.enabled": false,
   //
   "terminal.integrated.fontSize": 15,
   //
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Gruvbox Dark Medium",
   "oneDarkPro.italic": false,
   //
   "explorer.confirmDragAndDrop": false,
@@ -29,6 +32,7 @@
     "--fast"
   ],
   //
+  "vim.smartRelativeLine": true,
   "vim.leader": "<space>",
   "vim.hlsearch": true,
   "vim.incsearch": true,
@@ -42,16 +46,6 @@
       ],
       "after": [
         "<Esc>"
-      ]
-    }
-  ],
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": [
-        "<C-n>"
-      ],
-      "commands": [
-        ":nohl"
       ]
     }
   ],
@@ -159,6 +153,7 @@
   //
   "background.useDefault": false,
   "background.customImages": [
+    "https://user-images.githubusercontent.com/24371189/47023104-85336080-d191-11e8-957f-b4ac3f8a24c1.png",
     "https://user-images.githubusercontent.com/24371189/47023104-85336080-d191-11e8-957f-b4ac3f8a24c1.png"
   ],
   "background.style": {
@@ -199,6 +194,7 @@
     "eval",
     "ffmpeg",
     "garena",
+    "gjson",
     "golangci",
     "gomnd",
     "gonic",
@@ -243,6 +239,5 @@
   ],
   "cSpell.enableFiletypes": [
     "toml"
-  ],
-  "workbench.colorTheme": "Gruvbox Dark Medium"
+  ]
 }
